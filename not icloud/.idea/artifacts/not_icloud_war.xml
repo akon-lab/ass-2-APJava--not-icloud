@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="not icloud:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>not icloud</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="noticloud-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="not icloud:war exploded" />
+    </root>
+  </artifact>
+</component>
